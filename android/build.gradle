@@ -44,6 +44,6 @@ repositories {
 
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
-    implementation "androidx.appcompat:appcompat:+"
+    implementation "androidx.appcompat:appcompat:$androidxLibVersion"
     implementation 'com.facebook.react:react-native:+'
 }
